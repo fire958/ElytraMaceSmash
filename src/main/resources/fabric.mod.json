@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "elytramacesmash",
+  "version": "${version}",
+  "name": "ElytraMaceSmash",
+  "description": "Auto Elytra + Mace lock-on. G = players, V = mobs, X = friends. RGB HUD.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/elytramacesmash/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.elytramacesmash.ElytraMaceSmashClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["client"]
+    }
+  }
+}
